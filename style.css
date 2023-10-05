@@ -8,13 +8,14 @@ body{
     flex-direction: column;
     
 }
-button{
+a{
     margin-top: 50px;
 }
 
 
 /* CSS */
-button {
+.button {
+    background-color: #edede9;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
@@ -31,14 +32,19 @@ button {
   touch-action: manipulation;
 }
 
-button:active {
+.button:active {
   box-shadow: 0px 0px 0px 0px;
   top: 5px;
   left: 5px;
 }
 
 @media (min-width: 768px) {
-  button{
+  .button{
     padding: 0.25em 0.75em;
   }
+}
+h2{
+    color: whitesmoke;
+    font-family:"Open Sans", sans-serif ;
+    font-weight: 900;
 }
